@@ -159,10 +159,6 @@
 		padding-right: 4em;
 	}
 
-	.group {
-		font-size: 1.5em;
-	}
-
 	.start,
 	.end {
 		text-align: right;
