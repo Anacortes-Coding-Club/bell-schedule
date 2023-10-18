@@ -130,10 +130,10 @@
 
 <table>
 	{#each periods as period, i}
-		{#if i > 1 && periods[i - 1].group != period.group}
+		{#if i > 0 && periods[i - 1].group != period.group}
 			<tr>
 				<td colspan="5">
-					{#if !period.group || (i > 1 && !periods[i - 1].group)}
+					{#if !period.group || (i > 0 && !periods[i - 1].group)}
 						<hr />
 					{:else}&nbsp;{/if}
 				</td>
